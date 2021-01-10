@@ -26,7 +26,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/dgraph-io/badger/y"
+	"github.com/meeypioneer/badger/y"
 	farm "github.com/dgryski/go-farm"
 	"github.com/pkg/errors"
 )
@@ -661,7 +661,7 @@ func (db *DB) newTransaction(update, isManaged bool) *Txn {
 	// 4. This txn increments the oracle reference.
 	// 5. Now this txn would go on to commit the keyset, and no conflicts
 	//    would be detected.
-	// See issue: https://github.com/dgraph-io/badger/issues/574
+	// See issue: https://github.com/meeypioneer/badger/issues/574
 	if !isManaged {
 		txn.readTs = db.orc.readTs()
 	}

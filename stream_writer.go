@@ -19,9 +19,9 @@ package badger
 import (
 	"math"
 
-	"github.com/dgraph-io/badger/pb"
-	"github.com/dgraph-io/badger/table"
-	"github.com/dgraph-io/badger/y"
+	"github.com/meeypioneer/badger/pb"
+	"github.com/meeypioneer/badger/table"
+	"github.com/meeypioneer/badger/y"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/pkg/errors"
 )

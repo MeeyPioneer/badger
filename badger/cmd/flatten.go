@@ -17,7 +17,7 @@
 package cmd
 
 import (
-	"github.com/dgraph-io/badger"
+	"github.com/meeypioneer/badger"
 	"github.com/spf13/cobra"
 )
 

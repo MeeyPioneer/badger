@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/badger/pb"
-	"github.com/dgraph-io/badger/y"
+	"github.com/meeypioneer/badger/pb"
+	"github.com/meeypioneer/badger/y"
 )
 
 func getSortedKVList(valueSize, listSize int) *pb.KVList {

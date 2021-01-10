@@ -27,10 +27,10 @@ import (
 
 	"golang.org/x/net/trace"
 
-	"github.com/dgraph-io/badger/options"
-	"github.com/dgraph-io/badger/pb"
-	"github.com/dgraph-io/badger/table"
-	"github.com/dgraph-io/badger/y"
+	"github.com/meeypioneer/badger/options"
+	"github.com/meeypioneer/badger/pb"
+	"github.com/meeypioneer/badger/table"
+	"github.com/meeypioneer/badger/y"
 	"github.com/stretchr/testify/require"
 )
 
